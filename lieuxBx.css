@@ -1,0 +1,69 @@
+body h2 {
+	margin: 2em;
+	font: normal 1.3em/1em "Didot-Bold",sans-serif;
+	
+}
+
+body p {
+	margin: 0;
+	font-family: normal 1.2em/1em "Didot-Bold",sans-serif;
+	/*font-family: "Open Sans", Arial, sans-serif;*/
+}
+
+header {
+	background: #7592B4;
+	height: 10em;
+	font-family: "Open Sans", Arial, sans-serif
+	text-align: center;
+
+	
+}
+
+header h1, h3 {
+	font-family: normal "Didot-Bold",sans-serif;
+	text-align: center;
+}
+
+header picture {
+	align-content: center
+}
+/*
+}
+header, img {
+	height : 10em;
+
+}
+*/
+section h2, section p {
+	position: relative;
+  width: 20%;
+  margin-bottom: 10px;
+  padding: 10px;
+  line-height: 1;
+  list-style-type: none;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.25);
+  box-sizing: border-box;
+	margin: 12em;
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+ 	-webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	background: #454e59;
+	height: 1.5em;
+	width: 100%;
+	text-align: center;
+	padding: 30px;
+ 
+}
+
+footer p {
+	color: white;
+}

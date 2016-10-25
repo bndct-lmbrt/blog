@@ -1,0 +1,66 @@
+body h2 {
+	margin: 2em;
+	font: normal 1.3em/1em "Didot-Bold",sans-serif;
+	
+}
+
+body p {
+	margin: 0;
+	font-family: normal 1.2em/1em "Georgia",sans-serif;
+	    font-size: 1em;
+    line-height: 2em;
+    margin: 0 0 2.15em 0;
+	/*font-family: "Open Sans", Arial, sans-serif;*/
+}
+
+header, header h1 {
+		background: #7592B4;
+	height: 4em;
+	font-family: "Open Sans", Arial, sans-serif
+	text-align: center;
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*
+header h3 {
+	font-family: normal "Didot-Bold",sans-serif;
+	text-align: center;
+	height: 3em;
+
+*/
+}
+header, img {
+	height : 0em;
+
+}
+
+section {
+	margin: 0 12em;
+
+}
+
+section picture {
+	position: relative;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	background: #454e59;
+	height: 1.5em;
+	width: 100%;
+	text-align: center;
+	padding: 30px;
+ 
+}
+
+footer p {
+	color: white;
+}
