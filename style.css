@@ -5,17 +5,56 @@ body {
 
 header {
 	background: #344A4E;
-	height: 20em;
+	height: 30em;
 	font-family: "Open Sans", Arial, sans-serif;
 	text-align: center;
-	color: white;
+	
+}
+header img#dessin1 {
+	padding: 5px;
+	position:absolute;
+	top:200px;
+	left:100px;	
+}
+header img#dessin2 {
+	padding: 5px;
+	position:absolute;
+	top:200px;
+	left:300px;	
 }
 
-header h1 {
+header img#dessin3 {
+	padding: 5px;
+	position:absolute;
+	top:200px;
+	left:500px;	
+}
+
+header img#dessin4 {
+	padding: 5px;
+	position:absolute;
+	top:200px;
+	left:700px;	
+}
+header img#dessin5 {
+	padding: 5px;
+	position:absolute;
+	top:200px;
+	left:900px;	
+}
+
+header img#logo {
 	padding: 0;
 	margin: 0;
+	text-align: left;
+	position:absolute;
+	top:20px;
+	left:50px;
 }
-
+header h3 {
+	padding-top: 400px;
+	color: #a1c3d7;
+}
 
 section h2, section p {
 	background-color: ;
@@ -40,7 +79,7 @@ section h2, section p {
 footer {
 	position: relative;
 	bottom: 0;
-	background: #0B1B1E;
+	background: #1c282a;
 	height: 1.5em;
 	width: 100%;
 	text-align: center;
@@ -49,7 +88,7 @@ footer {
 }
 
 footer p {
-	color: white;
+	color: #a1c3d7;
 }
 
 
