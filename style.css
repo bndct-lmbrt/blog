@@ -13,33 +13,33 @@ header {
 header img#dessin1 {
 	padding: 5px;
 	position:absolute;
-	top:200px;
+	top:250px;
 	left:100px;	
 }
 header img#dessin2 {
 	padding: 5px;
 	position:absolute;
-	top:200px;
+	top:250px;
 	left:300px;	
 }
 
 header img#dessin3 {
 	padding: 5px;
 	position:absolute;
-	top:200px;
+	top:250px;
 	left:500px;	
 }
 
 header img#dessin4 {
 	padding: 5px;
 	position:absolute;
-	top:200px;
+	top:250px;
 	left:700px;	
 }
 header img#dessin5 {
 	padding: 5px;
 	position:absolute;
-	top:200px;
+	top:250px;
 	left:900px;	
 }
 
@@ -51,15 +51,18 @@ header img#logo {
 	top:20px;
 	left:50px;
 }
-header h3 {
-	padding-top: 400px;
-	color: #a1c3d7;
+
+section h3 {
+	text-align: center;
+	font-family: "Harrington";
+	position: relative;
+	
+
 }
 
 section h2, section p {
-	background-color: ;
 	position: relative;
-  width: 20%;
+  width: 50%;
   margin-bottom: 10px;
   padding: 10px;
   line-height: 1;
@@ -74,6 +77,8 @@ section h2, section p {
  	-webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   -webkit-padding-start: 40px;
+  color:#344A4E;
+  text-align: center;
 }
 
 footer {
