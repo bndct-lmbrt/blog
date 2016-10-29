@@ -10,9 +10,22 @@ body p {
 	    font-size: 1em;
     line-height: 2em;
     margin: 0 0 2.15em 0;
-	/*font-family: "Open Sans", Arial, sans-serif;*/
 }
-
+header {
+	background: #344A4E;
+	height: 13em;
+	font-family: "Open Sans", Arial, sans-serif;
+	text-align: center;
+}
+header img#logo {
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	position:absolute;
+	top:20px;
+	left:50px;
+}
+/*
 header, header h1 {
 		background: #7592B4;
 	height: 4em;
@@ -28,18 +41,14 @@ header, header h1 {
     text-align: center;
 }
 
-/*
+
 header h3 {
 	font-family: normal "Didot-Bold",sans-serif;
 	text-align: center;
 	height: 3em;
 
 */
-}
-header, img {
-	height : 0em;
 
-}
 
 section {
 	margin: 0 12em;
@@ -53,7 +62,7 @@ section picture {
 footer {
 	position: relative;
 	bottom: 0;
-	background: #454e59;
+	background: #1c282a;
 	height: 1.5em;
 	width: 100%;
 	text-align: center;
@@ -62,5 +71,6 @@ footer {
 }
 
 footer p {
-	color: white;
+	color: #a1c3d7;
 }
+

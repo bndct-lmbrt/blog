@@ -10,33 +10,33 @@ header {
 	text-align: center;
 	
 }
-header img#dessin1 {
+header img#header1 {
 	padding: 5px;
 	position:absolute;
 	top:250px;
 	left:100px;	
 }
-header img#dessin2 {
+header img#header2 {
 	padding: 5px;
 	position:absolute;
 	top:250px;
 	left:300px;	
 }
 
-header img#dessin3 {
+header img#header3 {
 	padding: 5px;
 	position:absolute;
 	top:250px;
 	left:500px;	
 }
 
-header img#dessin4 {
+header img#header4 {
 	padding: 5px;
 	position:absolute;
 	top:250px;
 	left:700px;	
 }
-header img#dessin5 {
+header img#header5 {
 	padding: 5px;
 	position:absolute;
 	top:250px;
@@ -52,15 +52,33 @@ header img#logo {
 	left:50px;
 }
 
-section h3 {
-	text-align: center;
-	font-family: "Harrington";
-	position: relative;
-	
+header ul {
+	font-family: "Nueva Std";
+	font-size: 18px;
+	font-weight: 500;
+  color: #a1c3d7;
+  line-height: 38px;
+  margin-right: 22px;
+  padding: 0;
+	margin: 0;
+	text-align: left;
+	position:absolute;
+	top:420px;
+	left:105px;
+	word-spacing: 8em;
+  
 
 }
 
-section h2, section p {
+section h3 {
+	text-align: center;
+	font-family: "Nueva Std";
+}
+section p {
+	text-align: center;
+}
+
+section h2 {
 	position: relative;
   width: 50%;
   margin-bottom: 10px;
