@@ -1,0 +1,13 @@
+ul => Liste
+li => ligne (list-style: none - display: block)
+
+h1 => Titre text
+
+div => bloc > h1 - p - strong - img
+
+article => eq. div
+
+header => en-tête - h1 - img
+
+section => article - header - aside
+

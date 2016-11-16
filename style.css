@@ -52,12 +52,12 @@ header img#logo {
 	left:50px;
 }
 
-header ul {
+header ul#menu-horizontal {
 	font-family: "Nueva Std";
 	font-size: 18px;
 	font-weight: 500;
   color: #a1c3d7;
-  line-height: 38px;
+ line-height: 38px;
   margin-right: 22px;
   padding: 0;
 	margin: 0;
@@ -66,7 +66,12 @@ header ul {
 	top:420px;
 	left:105px;
 	word-spacing: 8em;
-  
+	list-style: none;
+}
+
+ ul#menu-horizontal li {
+	display: inline; 
+	padding: 0 0.5em; 
 
 }
 
@@ -78,25 +83,26 @@ section p {
 	text-align: center;
 }
 
-section h2 {
+section div {
 	position: relative;
-  width: 50%;
-  margin-bottom: 10px;
-  padding: 10px;
-  line-height: 1;
-  list-style-type: none;
+  height: 290px;
+  width:350px;
+  border: 5px solid black; 
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.25);
-  box-sizing: border-box;
-	margin: 12em;
   display: block;
   list-style-type: disc;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
- 	-webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
+ 	-webkit-margin-start: 20px;
+  -webkit-margin-end: 20px;
   -webkit-padding-start: 40px;
+  padding: 10px;
+  line-height: 1;
+  list-style-type: none;
   color:#344A4E;
   text-align: center;
+
+
 }
 
 footer {
